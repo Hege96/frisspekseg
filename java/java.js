@@ -14,9 +14,6 @@ var kernev=document.getElementById("keresztnev").value;
 var telhossz=document.getElementById("telefonszam").value;
 var hossz= telhossz.length;
 var megj=document.getElementById("megjegyzes").value;
-var veznevhossz= veznev.lenght;
-var kernevhossz= kernev.lenght;
-var megjhossz= megj.lenght;
 
 host=document.getElementById("email").value;
 emailell=host.indexOf("@");
@@ -45,32 +42,32 @@ if(hossz==11)
 document.getElementById("ell").innerHTML="<font color='green'>Megfelelő telefonszám!</font>";
 
 }
-if(veznev.leght==null)
+if(veznev=="")
 {
-document.getElementById("elll").innerHTML=veznev;
+document.getElementById("elll").innerHTML="<font color='red'>Nem megfelelő Vezetéknév!</font>";
 
 }
-if(veznev.leght>0)
+if(veznev!="")
 {
-document.getElementById("elll").innerHTML=veznev;
+document.getElementById("elll").innerHTML="<font color='green'>Megfelelő Vezetéknév!</font>";
 
 }
-if(veznev.leght==null)
+if(kernev=="")
 {
 document.getElementById("ellll").innerHTML="<font color='red'>Nem megfelelő Keresztnév!</font>";
 
 }
-if(veznev.leght>0)
+if(kernev!="")
 {
 document.getElementById("ellll").innerHTML="<font color='green'>Megfelelő Keresztnév!</font>";
 
 }
-if(megjhossz==null)
+if(megj=="")
 {
 document.getElementById("elllll").innerHTML="<font color='red'>Nem megfelelő Megjegyzés!</font>";
 
 }
-if(megjhossz>0)
+if(megj!="")
 {
 document.getElementById("elllll").innerHTML="<font color='green'>Megfelelő Megjegyzés!</font>";
 
