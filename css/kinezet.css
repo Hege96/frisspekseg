@@ -327,12 +327,12 @@ background-color: rgb(255, 255, 255, 0.5);
 }
 #beadando
 {	
-text-align:center;
+text-align:left;
 font-family: Georgia, serif;
 font-size: 50px;
 letter-spacing: 2px;
 word-spacing: 2px;
-color: #ffffff;
+color: red;
 font-weight: normal;
 text-decoration: none;
 font-style: normal;
